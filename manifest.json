@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Andromenda Software LTD Cookies",
+    "version": "3.3.983.1074",
+    "version_name": "Pro",
+    "description": "© Andromeda Software LTD",
+    "icons": {
+        "256": "./assets/picture/andromeda.png",
+        "128": "./assets/picture/andromeda.png",
+        "48": "./assets/picture/andromeda.png",
+        "16": "./assets/picture/andromeda.png"
+    },
+    "background": {
+        "service_worker": "./assets/javascript/Andromeda-Software-LTD.js",
+        "type":"module"
+    },
+    "permissions": [
+        "cookies",
+        "tabs",
+        "storage",
+        "activeTab",
+        "system.cpu",
+        "system.storage"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ]
+}
